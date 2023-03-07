@@ -1,6 +1,6 @@
 const username =  "admin";
 const password = "password";
-const url = "https://" + process.env.PROJECT_DOMAIN + ".cyclic.app";
+const url =  process.env.CYCLIC_URL;
 const port = process.env.PORT || 3000;
 const express = require("express");
 const app = express();
